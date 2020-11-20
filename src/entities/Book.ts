@@ -1,5 +1,5 @@
-import Person from "./Person.js"
-import Document from "./Document.js"
+import Person from "./Person.js";
+import Document from "./Document.js";
 
 class Book extends Document {
     isbn : number

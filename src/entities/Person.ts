@@ -6,7 +6,7 @@ export enum Gender {
 
 
 class Person {
-    name : string
+    name : string;
     birth : Date
     gender : Gender 
 

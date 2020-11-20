@@ -1,6 +1,6 @@
-import Person from "./entities/Person.js"
-import {Gender} from "./entities/Person.js"
-import Book from "./entities/Book.js"
+import Person from "./entities/Person.js";
+import {Gender} from "./entities/Person.js";
+import Book from "./entities/Book.js";
 
 const person1 = new Person('Gabriel Sossai', new Date('2002-04-11T00:00:00'), Gender.Male)
 const book1 = new Book ('Autobiografia Gabriel Sossai', 'Autobiografia com a história de Gabriel Sossai e Curiosidades sobre T.I.', new Date('2020-11-19T00:00:00'), person1, 1, 1, 1)
