@@ -18,4 +18,3 @@ constructor (name: string, birth: Date, gender: Gender) {
 }
 
 export default Person
-

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h1>Qual dos seguintes você deseja cadastrar?</h1>
+        <select id = "type">
+            <option value="">Selecione:</option>
+            <option value="l">Livros</option>
+            <option value="p">Periódicos</option>
+        </select></br></br>
+        <input id="title" placeholder="Digite o título: "></br></br>
+        <input id="subtitle" placeholder="Digite o subtítulo: "></br></br>
+        <input id="publishedAt" type="date"></br></br>
+        <h1> 
+        <select id="author" placeholder="Digite o nome do autor: ">
+            <option value="">Selecione uma opção</option>
+        </select>
+        </h1> </br></br>
+
+
+        <input id="isbn" placeholder="Digite o código isbn: "></br></br>
+        <input id="edition" placeholder="Digite a edição: "></br></br>
+        <input id="volume" placeholder="Digite o volume: "></br></br>
+
+        <input id="issn"  placeholder="Digite o número do issn:"></br></br>
+        <input id="issue" placeholder="Digite a issue"></br></br>
+        <button>Cadastrar</button>
+    </form>
+
+    <p id="message"></p>
+
+    <script src="validateBookOrPerson.js" type= "module"></script>
+</body>
+</html>

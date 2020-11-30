@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar clientes</title>
+    <link rel="stylesheet"type= "text/css" href="css/style.css" >
+</head>
+<body> 
+    <form>
+        <input id="name" placeholder="Digite seu nome">
+        <input id="birth" type="date">
+        <select id="gender">
+            <option value="">Selecione o sexo</option>
+            <option value="f">Feminino</option>
+            <option value="m">Masculino</option>
+        </select>
+        <button> Verificar Dados</button>
+    </form>
+
+    <p id="message"></p>
+    <script src="validatePerson.js" type="module"></script>
+</body>
+</html>
